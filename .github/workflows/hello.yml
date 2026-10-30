@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: あいさつ
-        run: echo "Hello, GitHub Actions!"
+        run: echo "yahoo!"
       - name: 実行した人を表示
         run: echo "実行した人：${{ github.actor }}"
